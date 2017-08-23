@@ -8,6 +8,7 @@
 	width: 10%;
 	height: 750px;
 	display: inline-block;
+	margin-right: -5px;
 }
 .medio {
 	width: 70%;
@@ -30,4 +31,5 @@
 	width: 10%;
 	height: 750px;
 	display: inline-block;
+	margin-left: -5px;
 }
