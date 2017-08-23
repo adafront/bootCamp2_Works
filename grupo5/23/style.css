@@ -1,0 +1,30 @@
+.container{
+  display: inline-block;
+}
+.verde1{
+  background-color: #68ad12;
+  width: 800px;
+  height: 150px;
+}
+.rojo1{
+  display: inline-block;
+  background-color: red;
+  width: 10%;
+  height: 500px;
+}
+.verde2{
+  background-color: #68ad12;
+  width: 800px;
+  height: 150px;
+}
+.rojo2{
+  display: inline-block;
+  background-color: red;
+  width: 10%;
+  height: 500px;
+}
+.naranja{
+  background-color: #ed7608;
+  width: 800px;
+  height: 200px;
+}
