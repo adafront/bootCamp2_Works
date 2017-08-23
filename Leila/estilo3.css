@@ -1,0 +1,33 @@
+.container {
+	width: 90%;
+	margin: 0 auto;
+	padding-left: 10%;
+}
+#columna1 {
+	background-color: red;
+	width: 10%;
+	height: 750px;
+	display: inline-block;
+}
+.medio {
+	width: 70%;
+	display: inline-block;
+}
+#verde {
+	background-color: green; 
+	height: 150px;
+}
+#naranja {
+	background-color: #F09EE3;
+	height: 450px;
+}
+#green {
+	background-color: green;
+	height: 150px;
+}
+#columna2 {
+	background-color: red;
+	width: 10%;
+	height: 750px;
+	display: inline-block;
+}
