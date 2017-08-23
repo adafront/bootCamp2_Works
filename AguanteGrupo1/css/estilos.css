@@ -1,0 +1,28 @@
+*{
+		margin:0;
+		padding:0;
+		text-align:center;
+}
+
+.rojo{
+	display:inline-block;
+	width:10%;
+	height:900px;
+	background-color:red;
+
+}
+
+.medio{
+	margin-right:-5px;
+	margin-left:-5px;
+	display:inline-block;
+	width:50%;
+}
+.verde{
+	height:180px;	
+	background-color:green; 
+}
+#naranja{
+	height:540px;
+	background-color:orange;
+}

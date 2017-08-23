@@ -4,7 +4,7 @@
 	padding-left: 10%;
 }
 #columna1 {
-	background-color: red;
+	background-color: #99baef;
 	width: 10%;
 	height: 750px;
 	display: inline-block;
@@ -14,20 +14,20 @@
 	width: 70%;
 	display: inline-block;
 }
-#verde {
-	background-color: green; 
+#lila {
+	background-color: #c4a7ef; 
 	height: 150px;
 }
-#naranja {
-	background-color: #F09EE3;
+#pink {
+	background-color: #f2b9f7;
 	height: 450px;
 }
-#green {
-	background-color: green;
+#lilac {
+	background-color: #c4a7ef;
 	height: 150px;
 }
 #columna2 {
-	background-color: red;
+	background-color: #99baef;
 	width: 10%;
 	height: 750px;
 	display: inline-block;
