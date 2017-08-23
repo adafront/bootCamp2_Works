@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+#general{
+	margin:20px 5%;
+	width: 90%;
+	text-align: center;
+	height: 600px;
+}
+
+.izq,.dere{
+	width: 10%;
+	height: 500px;
+	background-color: #EF21DE;
+	display: inline-block;
+	
+}
+
+.arriba, .abajo{
+	width: 80%;
+	height: 100px;
+	background-color: #F1ABFB;
+	display: inline-block;
+	
+}
+
+.centro{
+	width: 80% ;
+	height: 300px;
+	background-color: #0CCABF;
+	display: inline-block;
+	padding: 0;
+	margin-bottom:-4px;
+	margin-top: -4px;
+}
+
+.dere{
+	float: right;
+}
+
+
+
+.izq{
+	float:left;
+
+
+}
+
+
