@@ -1,0 +1,14 @@
+#icon {
+	display: inline-block;
+}
+
+ #menu {
+	display: inline-block;
+	width: 80%;
+	background-color: red;
+	height: 300px;
+ }
+ ol {
+ 	float:left;
+
+ }

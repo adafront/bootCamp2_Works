@@ -1,0 +1,39 @@
+#icon {
+	display: inline-block;
+
+}
+
+ #menu {
+	display: inline-block;
+	width: 80%;
+	height: 300px;
+ }
+ ol {
+ 	float:left;
+ 	font-size: 25px;
+
+
+ }
+ li{
+ 	margin: 35px;
+ 	margin-top: 104px;
+ 	list-style: none;
+ 	text-align: center;
+ 	display: inline-block;
+ 	font-family: 'Delius Unicase', cursive;
+ }
+ img{
+ 	
+ 	padding: 50px;
+ }
+a{
+	text-decoration: none;
+} 
+
+ a:visited{
+ 	color:black	;
+ }
+a:hover {
+	font-size:35px;
+	color: red;
+}
