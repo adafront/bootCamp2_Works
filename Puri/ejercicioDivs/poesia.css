@@ -10,9 +10,11 @@
 }
 
 #color1{
+/*
 	width: 20%;
 	height: 750px;
 	float: left;
+*/
 	background-image: url('img/selva.jpg');
 }
 
@@ -45,11 +47,15 @@ h1{
 }
 
 .op{
-	color:transparent;
+	color:black;
 }
 
 .op:hover{
 	opacity: 0.7;
 	color: white;
 	text-transform: uppercase;
+}
+
+.op:active{
+	color:red;
 }
