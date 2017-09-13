@@ -1,0 +1,21 @@
+.caja{
+	border:1px solid black;
+	padding: 30px;
+	font-size: 30px;
+}
+.caja#azul{
+	background: cyan;
+}
+.caja#rojo{
+	background: red;
+}
+.caja#rosa{
+	background: pink;
+}
+#gris{
+	background: grey;
+}
+#grisos{
+	background: darkgrey;
+}
+	
