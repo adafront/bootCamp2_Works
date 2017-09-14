@@ -2,44 +2,41 @@
 	padding: 0;
 	margin: 0;
 }
-
 body {
-	background-image: url("img/fondo.jpg");
+	background-image: url(img/galaxy.png);
 }
 
+
 div #container {
-	width: 100%;
+width: 100%;
 }
 
 header {
-	width: 80%;
-	background-color: #F6DA77;
+	width: 100%;
 	margin: 0 auto;
-	display: flex; 
+	background-color: #FDC0D5;
+	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-}	
+}
 
 nav {
 	position: relative;
 }
 
-nav ul li{
+nav ul li {
 	display: inline-block;
 }
 
 nav ul li a {
 	text-decoration: none;
 	color: black;
-	font-size: 25px; 
-	font-family: arial;
+	font-size: 30px;
+	font-family: 'Amatic SC', cursive;
 	display: block;
-	padding: 50px; 
-}
+	padding: 50px;
 
-#uno {
-	margin-right: 20px;
 }
 
 nav ul li a:hover {
@@ -47,8 +44,9 @@ nav ul li a:hover {
 	color: #FF00000;
 }
 
-.contimg img{
-	width: 170px;
-	height: 100px;
+
+.logo img{
+	width: 150px;
+	height: 80px;
 	margin: 10px 20px;
 }
