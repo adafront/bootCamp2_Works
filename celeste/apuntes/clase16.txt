@@ -1,0 +1,68 @@
+clase 16
+
+tarea pendiente ---usar flex box con un menu
+
+el elemnto header es su contenedor
+entonces es a ese que le tengo que modificar el display
+
+body{
+background-image: url (nombre de la imagen . extension)----con esto le doy un fondo
+
+
+header{
+
+padding 20px;
+widht:100%;
+background:#fff;
+display:flex;
+flex direction:row;
+justify-content: space-between------------linea y
+align-items: center    ---------me alinea los contenidos verticalmente a una sola linea
+
+
+
+
+header .menu a {
+font size
+color
+
+esto son propiedades para los hijos
+
+si quiero mover uno solo de los elementos --uso align self -statc solo pera vertical o sea el ewje y
+
+
+a los padres solamente le puedo poner display flex 
+
+a los hijos no
+
+son propiedades de justify-content
+
+flex-start 	Default value. Items are positioned at the beginning of the container 	
+flex-end 	Items are positioned at the end of the container 	
+center 	Items are positioned at the center of the container 	
+space-between 	Items are positioned with space between the lines 	
+space-around 	Items are positioned with space before, between, and after the lines 	
+initial 	Sets this property to its default value. Read about initial 	
+inherit 	Inherits this property from its parent element. Read about inherit
+
+
+diseño responsive
+
+media query
+
+
+el orden en css son
+global
+body
+´´´´
+y los genericos
+
+
+buenas practicas--es ser ordenado y comentar cada seccion de mmi codigo
+
+meta viewport----
+
+
+
+tarea-----------hacer un html y un css basico sde distintos colores
+

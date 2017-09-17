@@ -1,0 +1,82 @@
+clase 6
+
+
+lista oredenada ol significa order list
+--li--significa-- list
+
+concepto de lista anidada
+---------------------------
+
+--hacer un archivo que se llame listas html 
+y crear el sub menu con tres items en cada uno
+---hacer
+  un h1 menu de sublime text
+  un h2 que diga lenguajes de programacion 
+1--html
+etiquetas
+atributos
+2---css
+responsive design
+class/id
+flex box--propiedades del padre
+3---javascript
+jquery
+nodejs
+
+las etiquetas a tienen obligatoriamente un atributo href
+ que hace referencia a un lugar
+tenemos tres tipos 
+
+un # que recarga en el mismo lugar
+
+una ruta absoluta ej www.google.com
+
+y una ruta relativa ej foto.jpg
+
+
+vamos por una 4 opción 
+
+Anclas
+------
+
+me redirigen a una misma pagina
+
+ej de codigo
+
+<div>
+<a name="noticias">
+<a name="contenido">
+<li><a href="#noticias">noticias</li>
+<li><a href="#productos">productos</li>
+</a>
+
+y al final un 
+
+<a href="contenido">volver arriba</a>
+
+
+</div>
+
+
+paginas utiles
+
+--w3 schools.com
+--mdn 
+--si pones en el buscador w3 validator podes
+ seleccionar un archivo para que busque los errores
+ en el codigo
+
+el works si quiero lo mando todo al repo
+tarea---ordeno todos los archivos y subirlos a git
+
+
+archivos md mark down
+----------------------
+
+es un archivo de presentacion
+
+
+tiene codigos para escribir ej
+# h1
+## h2 y asi hasta el h6
+con un tab sombrea y marca que es codigo lo que esribo

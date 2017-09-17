@@ -1,0 +1,21 @@
+clase 10
+
+el id es unico y las clases sirven para diferenciar
+
+siempre que hablamos de color ,hablamos de la fuente
+
+el hover tiene la funcion de activarse cuando pasamos el cursor por encima
+
+los eventos son las acciones de los usuarios,la respuesta 
+
+text-transform : uppercase; ---es para que la fuente se vea en mayuscula
+active es cuando apretas el mouse hace algo
+
+siempre voy a hacer un div que sea container
+
+
+barra de menú
+
+voy a hacer un div 
+
+---crear una pag con una imagen y un menú con un sub menú
