@@ -81,6 +81,29 @@ nav ul li a:hover {
 
 /******************medias****/
 
-/*@media(min-width:320px)and (min-width: 480px){
-	.florbk{display: none;}
-}*/
+@media screen and (max-width: 700px) and 
+(min-width: 350px){
+	.flord {
+		display:none;	
+	}
+	.pink {
+		margin-top: 25px;
+	}
+	h1{ 
+		font-size: 30px;
+	}
+	nav{ 
+		width: 35%;
+		position: fixed;
+		z-index:10;
+		top:25%;
+		right: 0%;
+	 }
+	nav ul li {
+		display: block;
+	}
+	nav ul li a{
+		padding: 0px;
+		margin:0px;
+	}
+}
