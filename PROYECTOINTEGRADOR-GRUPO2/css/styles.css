@@ -1,0 +1,126 @@
+.banner{
+	background-color:black;
+	padding:1em;
+
+}
+.titulo{
+	color:white;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size:4em;
+	padding:1em;
+}
+
+a{
+	background-color: #FF8400;
+	color:white;
+	font-size:2.5em;
+	font-family: 'Roboto', sans-serif;
+	padding:0.3em;
+}
+
+.navegador{
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.flexible{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 2em;
+
+}
+
+.violeta{
+	margin-top:2em;
+	background-color:#730797;
+	height:35em;
+}
+
+.azul{
+	background-color:#050EC9;
+	height:12em;
+	margin-top:2em;	
+}
+
+.verde{
+	background-color:#296001;
+	height:35em;
+	margin-top:3em;
+}
+
+.amarillo{
+	background-color:#FFE400;
+	height:18em;
+	margin-top:2em;
+	margin-bottom: 15em;
+}
+
+.imagen{
+	float: right;
+	margin-right:2em;
+	margin-top:2em;
+
+}
+.imagen2{
+	float: left;
+}
+
+
+.perro1{
+	float:right;
+	margin-top:1em;
+}
+
+.perro2{
+	float:left;
+	margin-top:1em;
+}
+
+
+@media (max-width:800px){
+
+.titulo{
+	font-size:7vw;
+}
+
+.backNavegador{
+
+	position:relative;
+}
+
+.navegador{
+ 	background-color: #FF8400;
+	position:fixed;
+	right:0px;
+	top:350px;
+	z-index: 2;
+	height: 260px;
+	width:190px;
+	padding:0;
+
+}
+a{
+	padding: 0;
+}
+
+span{
+	text-transform:lowercase;
+}
+
+
+ul{
+	margin:0;
+	position:absolute;
+	left:-10px;
+}
+
+.flexible{	
+	display:flex;
+	flex-direction: column;
+	align-items:flex-end;
+	padding: 2em;
+}
+
+}
+
