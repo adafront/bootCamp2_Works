@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+li{
+	display:inline-block;
+}
+
+.text{
+	padding-top:90px; 
+	padding-right: 15px;
+	padding-left:15px;
+	font-size:40px;
+	color:white;
+	text-transform: uppercase;
+	font-family:"Fjalla One";
+}
+
+#container{
+	width: 90%;
+	height: 600px;	
+	background-color: #706262;
+}
+#header{
+	height: 225px;
+	width: 100%;
+	background-color: #5B87A9;
+}
+#imagen{
+	width: 30%;
+	float: left;
+}
+
+#menu {
+	width: 70%;
+	float: right;
+	}
+
+#menuCss ul{
+      display: none;
+}
+
+#body {
+	width: 100%;
+	height: 375px;
+	background-color: #D32C2C;
+}

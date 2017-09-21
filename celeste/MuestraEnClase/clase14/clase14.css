@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ 
+
+ nav{
+ 	background: cyan;
+ 	position: relative;
+
+ }
+
+ nav .submenu{
+ 	position: absolute;
+ 	display: none;
+
+ }
+
+ nav .ancla:hover .submenu{
+
+ }
+
+ nav .submenu li{
+		display: block;
+ }
+
+ nav ul li{
+		display: inline-block;
+		
+ }
+
+ .caja {
+ 	width: 200px;
+ 	display: inline-block;
+ 	border: 3px solid blue;
+ 	vertical-align: top;
+ 	height: 170px;
+ }

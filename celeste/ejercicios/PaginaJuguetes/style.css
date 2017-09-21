@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+ 
+
+*{
+
+	margin: 10px;
+	padding: 10px;
+	background-color: #3BD1DF;
+	font-family: 'Indie Flower', cursive;
+}
+
+#container {
+      margin: 40px;
+      background: #DE88DB;
+
+      }
+
+nav { 
+
+	  background: rgb(168, 159, 160);
+
+	  width: 90%;
+	  margin: 30px;
+	  padding: 20px;
+	  display: inline-block;
+	  float: left;
+	  font-family: 'Indie Flower', cursive;
+	
+}
+
+.colectivo {
+			width: 250px;
+			height: 250px;
+			float: left;
+			box-shadow: 8px 8px 8px #aaa;
+			background: #0971B2; 
+			
+}
+
+
+h1 {
+	 color: #FACCEE;
+	 font-family: 'Indie Flower', cursive;
+	 font-size: 80px;
+	 text-align: center;
+	 text-shadow: 4px 4px 4px #aaa;
+ 
+
+}
+
+h2 h3 {
+   		font-size: 50px;
+		width: 400px;
+   		text-align: center;
+   
+}
+
+.img {  
+	    display: inline-block;
+	    margin: 0;
+		padding: 0;
+
+}
+
+
+
+
+
+
+
+.caja {
+	background-color: #ADFAD8;
+	width: 60%;
+}
+
+/* */
+
+
+
+
+
+
+ul {
+	text-align: center;
+	width: 60%;
+}
+
+p {
+	
+	width: 500px;
+	height: 200px;
+	padding: 62px;
+	
+}
+
+.fuente {
+	width: 500px;
+	height: 200px;
+	padding: 62px;
+	
+}
+
+

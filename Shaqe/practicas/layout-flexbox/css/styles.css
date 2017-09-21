@@ -1,0 +1,131 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Josefin Slab', serif;
+	background: -webkit-linear-gradient(left,pink,orange,rebeccapurple,green,blue,indigo,violet);
+}
+
+.row {
+	text-align: justify;
+
+}
+
+/*******************HEADER***************************/
+
+header{
+	width:100%;
+	background-image: url(../img/galaxy.png);
+	padding: 50px 20px;
+	text-align: justify;
+}
+
+header .menu a{
+	text-decoration: none;
+	font-size: 50px;
+	color:black;
+	margin-right:40px;
+	text-align: center;
+}
+
+header .menu a:hover{
+	font-weight: bold;
+}
+
+
+
+/*******************PRINCIPAL***************************/
+
+.principal{
+	background: #FC89BC;
+	padding: 20px;
+	width:70%;
+}
+
+.principal article .banner{
+	margin-bottom: 20px;
+}
+
+
+.principal article .banner img{
+	width:100%;
+	vertical-align: top;
+}
+
+
+.principal article h1{
+	margin-bottom: 20px;
+	font-weight: normal;
+	font-size: 40px;
+	color: #000000;
+} 
+
+.principal article p{
+	margin-bottom: 20px;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: justify;
+	color: #000000;
+}
+
+aside{
+	width:30%;
+	background:#FA659A;
+	padding: 20px;
+	display: flex;
+}
+
+aside .caja{
+	padding:80px 0;
+	text-align: center;
+	border:3px dashed black;
+}
+
+
+/*******************FOOTER***************************/
+
+footer{
+	background:rgba(255,255,255,0.5);
+	padding: 30px 20px;
+	width:100%;
+	display: flex;
+	font-size: 16px;
+}
+
+footer .redes a{
+	text-decoration: underline;
+	color:black;
+	margin-left: 20px;
+}
+
+footer .redes a:hover{
+	text-decoration: none;
+}
+
+/*******************@MEDIA***************************/
+
+	header{
+/*justify-content:space-around; */
+	}
+
+	header .menu a{
+		margin-right:5px;
+		font-size:16px;
+	}
+	.principal{
+		width:100%;
+	}
+
+	aside{
+		width:100%;
+	}
+
+	aside .caja{
+		width:30%;
+		padding:60px 0;
+		font-size:10px;
+	}
+
+}

@@ -1,0 +1,17 @@
+
+body {
+	background-image: url(assets/1.jpg);
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: black;
+}
+
+
+/* CAJAS */
+*.row {
+	border: 2px solid black;
+	padding: 40px;
+	font-size: 20px;
+	text-align: justify;
+	background-image: url(assets/galaxy.png);
+}
+

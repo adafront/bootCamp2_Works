@@ -1,34 +1,34 @@
 *{
 		margin:0;
 		padding:0;
-		text-align:center;
+		/*text-align:center;*/
 }
 
 .contenedor{
 	margin:0 auto;
 	width:1200px;
-	height:900px;
+	height:600px;
 }
 
 .rojo{
 	float:left;
 	width:200px;
-	height:900px;
+	height:600px;
 	background-color:red;
 	
 }
 
 .medio{
-	margin-right:-5px;
-	margin-left:-5px;
+	/*margin-right:-5px;
+	margin-left:-5px;*/
 	float:left;
 	width:800px;
 }
 .verde{
-	height:180px;	
+	height:100px;	
 	background-color:green; 
 }
 #naranja{
-	height:540px;
+	height:400px;
 	background-color:orange;
 }

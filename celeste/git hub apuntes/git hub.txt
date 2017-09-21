@@ -1,0 +1,31 @@
+mpara crear un repo lo hago desde la web de git
+y agrego un nuevo repo,al cual le pongo un nombre para identificar un futuro proyecto
+
+al repo hay que vincularlo primero para que el remoto sepa que existe un repo 
+en el local,que previamente hice una carpeta con todo mi proyecto dentro
+---eso en consola se hace con 
+git remote add origin,copiar y pegar en la consola la direccion del repo remoto,enter
+
+--listo ahora estan conectados
+
+git remote -v me muestra que estan conectados
+
+git remote remove origin ,borra el repo
+
+git push orgin master subo mis archivos al repo
+
+
+
+subir a repo remoto
+
+git init
+git remote add origin ---copio url del repo remoto al que quiero subirlo
+git remote -v ---- muestra el repo donde lo estas ubicando
+git add --- nombre de la carpeta q voy a subir
+git commit -m  ---con un comentario de referencia
+git push -u origin master
+
+listo subido al repo remoto
+
+
+con git log veo los commits,salgo con ctrl c 
