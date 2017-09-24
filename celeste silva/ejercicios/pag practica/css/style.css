@@ -1,0 +1,26 @@
+
+/*************HEADER***********/
+header {
+	background: #0C0202 ;
+	color: #fff ;
+}
+/************MAIN***********/
+
+section {
+	background: #F48E33 ;
+}
+
+aside {
+	background: #F9DC8D ;
+}
+
+.color {
+	background: #F6C86F;
+}
+
+/************FOOTER***********/
+
+footer {
+	background: #4B3C95 ;
+	color: #F6CFEF ;
+}

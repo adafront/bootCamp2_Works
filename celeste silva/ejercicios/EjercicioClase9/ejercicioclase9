@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+	<html>
+		<head>
+			<title>cajas</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+		</head>
+			<body>
+				<div>
+					<div id="izquierda"></div>
+					<div class="inferior"></div>
+					<div class="superior"></div>
+					<div class="centro"></div>
+					<div class="derecha"></div>
+				</div>
+			</body>
+	</html>
+

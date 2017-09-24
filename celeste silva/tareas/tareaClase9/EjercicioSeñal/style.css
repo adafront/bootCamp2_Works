@@ -1,0 +1,119 @@
+/*
+.color1 {
+	width: 150px;
+	height: 800px;
+	background-color: #FFFFFF;
+	float: left;
+}
+
+
+
+.color2 {
+	width: 150px;
+	height: 800px;
+	background-color: #F2FE6A;
+	float: left;
+}
+
+ .color3 {
+	width: 150px;
+	height: 800px;
+	background-color: #81F5F4;
+	float: left;
+}
+
+ .color4 {
+	width: 150px;
+	height: 800px;
+	background-color: #6AFA71;
+	float: left;
+}
+
+ .color5 {
+	width: 150px;
+	height: 800px;
+	background-color: #FA69E7;
+	float: left;
+}
+
+ .color6 {
+	width: 150px;
+	height: 800px;
+	background-color: #FA572B;
+	float: left;
+}
+
+.color7 {
+	width: 150px;
+	height: 800px;
+	background-color: #345BEC;
+	float: left;
+}
+
+.color8 {
+	width: 150px;
+	height: 800px;
+	background-color: #090909;
+	float: left;
+}
+
+primera forma y segunda mas abajo
+
+*/
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+div {
+	width: 168px;
+	height: 800px;
+	float: left;
+}
+
+.color1 {
+	background-color: #F2FE6A ;
+}
+
+.color2 {
+	background-color: #81F5F4 ;
+}
+
+.color3 {
+	background-color: #6AFA71;
+}
+
+.color4 {
+	background-color: #FA69E7 ;
+}
+
+.color5 {
+	background-color: #FA572B;
+}
+
+.color6 {
+	
+	background-color: #345BEC ;
+}
+
+.color7 {
+	background-color: #090909;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

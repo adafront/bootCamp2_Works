@@ -1,0 +1,55 @@
+Clase 22
+
+user history
+    
+
+detallar que es lo que se quiere hacer  a través de esa caracteristicas
+quien lo hace
+que quiero lograr 
+
+son lo que forma el back log del producto
+detalle de funcionalidades
+sprint 
+que es lo q nos vamos comprometiendo a haccer
+de ahi surgen las tareas
+
+
+
+ej con un login
+una tarea puede ser maquetar el login
+validar
+---------------las tareas pueden ser dependientes o no 
+hay q estimar el esfuerzo-o sea el tiempo q me va a llevar hacerlo
+por puntos 1 punto es un dia de laburo 
+puede ser 1/2---------------nosotros vamos a hacer una hora un punto
+
+
+consejo--darle visibilidad a la tarea
+se utiliza tambien para documentar--si yo no estoy otro continua el proyecto
+
+el equipo se autoasigna las tareas
+el scrum master soluciona problemas pero no asigna tareas
+
+
+
+
+ctrl f busca-------------------
+
+
+tablas con bootstrap
+
+
+
+
+
+-------------------------------PROYECTO----------------------------------
+
+
+
+
+
+
+
+
+
+
