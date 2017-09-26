@@ -1,0 +1,89 @@
+clase 21
+
+la class clear flix sirve para arreglar algunos errores que tienen los sitios web
+se crea un div con esa clase
+esto puede utilizarse cuando por ej tengo un texto mas largo y al hacerlo responsive
+queda mal la columna
+
+para desplazar lugares de una columna que quiero desplazar y pongo col-md-offset- y el numero que quiero desplazar
+hacia la derecha ej 3
+
+adaptar las imagenes
+
+container-fluid
+un div row
+le aplicamos a la img responsive
+
+tipografia y textos
+--------------------
+
+dentro de un h puedo poner la etiqueta small que podria ser un texto secundario
+
+dentro de un p podria poner la clase lead que marca mas grande el arrafo
+
+etiqueta mark dentro de un p agrega un fondo de color destacando el p o 
+para elementos en linea
+
+etiqueta del o s nos tacha un texto(diferencia es q una subraya y el otro aplica a que borra)
+
+u de underline subraya por debajo
+
+etiqueta strong es negrita
+
+para italica etiqueta em
+
+alineacion de texto
+--------------------
+clases 
+
+text-left
+text-center
+text-right
+text-justify
+
+tranformar texto
+
+text-lowercase convierte todo a minus
+text-uppercase                  mayus
+text-capitalize convierte a primer letra en mayus
+
+etiqueta blockquote
+hace citas de texto
+
+podemos agregar un footer dentro de un blockquote para mostrar quien dijo la cita del texto
+una clase para esto es blockquote-reverse
+
+etiqueta code y pre es para escribir codigo
+
+
+el color de texto lo puedo cambiar con clases
+
+text-muted
+text-primary
+text-succes
+text-danger
+text-warning
+text-info
+
+
+
+
+
+trabajamos usando una pag con flex para adaptarla a bootstrap
+ 
+1 sacar todo el flex
+
+importante
+sacar los anchos porcentuales
+
+
+evitemos los porcentajes 
+
+aside
+
+es un row que quiero pasar a column
+
+cuando llego a xs por defecto lo pone uno debajo de otro
+si eso lo quiero modificar en este caso pondria
+col-xs-4   col-md-12 
+
