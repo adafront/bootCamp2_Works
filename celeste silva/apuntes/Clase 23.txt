@@ -1,0 +1,44 @@
+Clase 23 
+
+
+Componentes de bootstrap
+
+
+tablas
+
+es una etiqueta de bootstrap
+
+<table-----------------etiqueta html
+
+
+las filas se crean con tr ---table row
+las columnas se crean con td--tabla date
+
+ej
+
+		<tr>
+			<td>1</td>
+			<td>pepe</td>
+			<td>gonzales</td>
+			<td>gonzales</td>
+		</tr>
+
+
+con th se pone en negrita el encabezado
+
+ej 
+<th>
+		<tr>
+			<th>#</th>
+			<th>nombre</th>
+			<th>apellido</th>
+			<th></th>
+		</tr>
+		</th>
+
+ctrl + shift + g ---agrego un etiqueta
+
+
+
+		
+
