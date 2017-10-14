@@ -14,7 +14,7 @@ else {
 }
 
 
-///////////////////////////////////////////
+
 
 
 // EJERCICIO NUMERO 2
@@ -49,7 +49,7 @@ switch(dias){
 }
 
 
-///////////////////////////////////////////
+
 
 
 
@@ -163,7 +163,6 @@ switch (mes){
 
 
 
-///////////////////////////////////////////
 
 
 // EJERCICIO NUMERO 4
@@ -180,7 +179,6 @@ else {
 
 
 
-///////////////////////////////////////////
 
 
 // EJERCICIO NUMERO 5
@@ -226,7 +224,7 @@ switch(letra){
 
 
 
-///////////////////////////////////////////
+
 
 
 // EJERCICIO NUMERO 6
@@ -265,7 +263,7 @@ if (!(total>y)){
 
 
 
-///////////////////////////////////////////
+
 
 
 // EJERCICIO NUMERO 7 
@@ -299,7 +297,7 @@ else {
 
 
 
-////////////////////// LEVEL UP : 2 ///////////////////////////////
+//////////////////////// LEVEL UP : 2 ///////////////////////////////
 
 
 // EJERCICIO 1
@@ -332,15 +330,18 @@ else {
 
 
 
-///////////////////////// LEVEL UP : ARRAY ////////////////////////////
+///////////////////////// LEVEL UP : ARRAYS ////////////////////////////
 
 
 // Ejericio 1 
 
+var arr = [];
 var n = 5;
 
-for (var i= 0 ; i<=n ; i++){
-	console.log(i);
+for (var i= 0 ; i<n ; i++){
+	arr = i;
+	console.log(arr);
+	
 }
 
 
@@ -349,14 +350,16 @@ for (var i= 0 ; i<=n ; i++){
 
 
 var n = 5;
+var arr =[];
 
 for (var i= 0 ; i<=n ; i++){
 	if (i%2==0){
-		cero = 0;
-		console.log(cero);
+		arr = 0;
+		console.log(arr);
 	}
 	else { 
-		console.log(i);
+		arr = i;
+		console.log(arr);
 	}
 }
 
@@ -404,6 +407,27 @@ for (var i=0; i<=x.length-1; i++ ){
 
 console.log(`El numero mayor es ${max} y se repite ${rep} veces`);
 
+// Opcion optima de Ej 5
+
+var x = [10,24,36,7,98,11,14,20,98,14,10];
+var max = x[0];
+var rep = 0;
+
+for (var i=0; i<x.length; i++ ){
+	if (x[i]>=max){
+		if (x[i]==max){
+		rep=rep+1;
+		} 
+		else {
+			rep=1
+		} max = x[i];
+	} 
+}
+
+console.log("Este es el valor de max: "+max);
+console.log(`El numero mayor es ${max} y se repite ${rep} veces`);
+
+
 
 // Ejercicio 6 
 
@@ -430,14 +454,52 @@ for (var i= 0 ; i<=X.length-1 ; i++){
 
 console.log(`Los dos arrays tienen ${igual} letras en común.`);
 
-//for (var i= 0 ; i<=X.length-1 ; i++){
-//	if (Y[i] == X[i]){
-//		igual +=1;
-//	}
-//}
+// Otra manera mas optima de hacer Ej 6
+
+var X = ["a","l","f","a"];
+var Y = ["a","l","f","a","j","o","r"];
+var distinto = false;
+
+if (X.length == Y.legth){
+	for(var i=0; i<X.length; i++){
+		if (X[i]!=Y[i]){
+			distinto=true;
+		}
+	}
+}
+else {
+	if(X.length>Y.length){
+		console.log("X es mas largo");
+	}
+	else {
+		console.log("Y es mas largo");
+	}
+}
 
 */
 
 // Ejercicio 7 
 
 
+var datos1 = ["Fido","Gomez",26,15000.78,true];
+var datos2 = ["Gervasio","Fernandez",32,28.550,false];
+var aumento;
+
+console.log(datos1);
+console.log(datos2);
+
+if (datos1[2]<datos2[2]){
+	console.log(`Fido es menor que Gervasio. Fido tiene ${datos1[2]} años y Gervasio tiene ${datos2[2]}.`);
+} else { console.log(`Fido es mayor que Gervasio. Fido tiene ${datos1[2]} años y Gervasio tiene ${datos2[2]}.`); }
+
+if (datos1[4]){
+	console.log("Fido esta casado");
+} else if (datos2[4]) {console.log("Gervasio esta casado");}
+
+aumento = (datos2[3]*12.5)/100;
+console.log(aumento);
+
+montoFinal = datos1[3]+aumento;
+montoFinal = montoFinal.toFixed(2);
+
+console.log(`El monto a cobrar por fido este mes sera de $ ${montoFinal} .-` );
