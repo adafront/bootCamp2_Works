@@ -1,1 +1,1 @@
-var disfraces=["unicornio","Alice in Wonderland"];
+var disfraces=["unicornio","Alice in Wonderland","Pikachu"];
