@@ -2,7 +2,7 @@ var dado = [1,2,3,4,5,6];
 var lista = document.getElementById('lista'); 
 var tiros = 0;
 var tirada = [];
-var limite = 20;
+var limite = 10;
 var puntos=0;
 var iguales =[0]; 
 
@@ -11,6 +11,7 @@ function tirarDados(){
 	if(!lis.length){
 		if (tiros >= limite) {
 			alert(`Tiraste los dados más de ${limite} veces! Perdiste! Tu total de puntos al finalizar es de: ${puntos}`);
+			location.reload();
 		} else {
 			for( var i= 0 ; i<5; i++){	
 				j = dado[Math.floor(Math.random()*dado.length)];
