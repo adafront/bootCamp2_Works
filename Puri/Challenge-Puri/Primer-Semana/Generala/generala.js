@@ -5,8 +5,6 @@ var tirada = [];
 var limite = 20;
 var puntos=0;
 var iguales =[0]; 
-var escalera=[1,2,3,4,5];
-
 
 
 function tirarDados(){
@@ -29,10 +27,12 @@ function tirarDados(){
 			}
 		}
 
-		if (tirada==escalera){
+		if (tirada[0]==1 && tirada[1]==2 && tirada[2]==3 && tirada[3]==4 && tirada[4]==5){
+			var h2 = document.createElement('h2');
 			h2.textContent = "Escalera!";
 			resultados.appendChild(h2);
 			puntos = puntos + 30;
+			var h3 = document.createElement('h3');
 			h3.textContent = "Tienes un total de" + puntos + " puntos!";
 			resultados.appendChild(h3);
 			console.log(`tu total de puntos es de ${puntos}`);
@@ -48,7 +48,7 @@ function tirarDados(){
 
 
 function contadorIguales(){
-	iguales =[1]; 
+	iguales=[1];
 	for (var j=0 ; j<tirada.length-1; j++ ){
 		if (tirada[j]==tirada[j+1]){
 			iguales[iguales.length - 1] ++;	
