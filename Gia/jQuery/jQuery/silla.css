@@ -1,0 +1,16 @@
+.tercio{
+    width: 33%;
+    height: 290px;
+    display: inline-block;
+}
+
+#A {
+background-color: rgb(164, 133, 192);
+}
+#B {
+background-color:rgb(238, 184, 238);
+}    
+#C {
+background-color: rgb(250, 212, 219);
+}
+
